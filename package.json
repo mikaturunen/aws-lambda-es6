@@ -1,0 +1,27 @@
+{
+  "name": "aws-lambda-es6",
+  "version": "0.0.1",
+  "description": "Examples of running ES6 code on AWS Lambda",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikaturunen/aws-lambda-es6.git"
+  },
+  "keywords": [
+    "test",
+    "aws",
+    "amazon",
+    "lambda",
+    "es6",
+    "flow"
+  ],
+  "author": "Mika Turunen <mika.turunen@ymail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikaturunen/aws-lambda-es6/issues"
+  },
+  "homepage": "https://github.com/mikaturunen/aws-lambda-es6"
+}
