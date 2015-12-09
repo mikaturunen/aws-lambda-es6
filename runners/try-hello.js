@@ -2,7 +2,7 @@
 const lambdaHello = require("../release/hello.js");
 
 const mockLambdaContext = {
-    succeed: (results) {
+    succeed: (results) => {
         console.log("Results:", results);
         process.exit(0);
     }
