@@ -1,4 +1,6 @@
 
+"use strict";
+
 const lambdaHello = require("../release/hello.js");
 
 const mockLambdaContext = {
