@@ -4,10 +4,11 @@ const flow = require("gulp-flowtype");
 const gulp = require("gulp");
 const babel = require("gulp-babel");
 const path = require("path");
-const sequence = require("gulp-sequence").use(gulp);
+const sequence = require("run-sequence").use(gulp);
 
 let babelTask;
 let typeTask;
+let npmInstallTask;
 
 gulp.task((babelTask = "babel"), () =>
     gulp

@@ -1,7 +1,7 @@
 
 "use strict";
 
-const lambdaHello = require("../release/hello.js");
+const lambdaHello = require("../release/hello/hello.js");
 
 const mockLambdaContext = {
     succeed: (results) => {
